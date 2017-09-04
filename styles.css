@@ -99,12 +99,13 @@ body {
     right: 0;
     padding: 12px;
     background: #fafafa;
+    white-space: nowrap;
     text-align: right;
     transition: all .3s ease-in-out;
 }
 
 .list__item:hover .hover__item {
-    width: 250px;
+    width: 200px;
     opacity: 1;
     visibility: visible;
 }
