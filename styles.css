@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    padding-top: 25px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.header .logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.header .item {
+    margin: 0 8px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+.header .item:hover {
+    border-color: #000;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.hero h1 {
+    text-align: center;
+    max-width: 960px;
+    font-weight: 200;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    width: 50%;
+}
+
+.list__item .inner__item {
+    position: relative;
+    width: 50%;
+}
+
+.list__item .inner__item img {
+    width: 100%;
+}
+
+.list__item .hover__item {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    opacity: 0;
+    width: 0;
+    padding: 12px;
+    white-space: nowrap;
+    background: #fafafa;
+    text-align: center;
+    transition: all .3s ease-in-out;
+}
+
+.list__item:hover .hover__item {
+    width: 150px;
+    opacity: 1;
+}
+
+/* .list__item img {} */
+
+.list__item:nth-child(3n) {
+    width: 100%;
+}
