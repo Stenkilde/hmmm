@@ -98,14 +98,13 @@ body {
     top: 70%;
     right: 0;
     padding: 12px;
-    white-space: nowrap;
     background: #fafafa;
-    text-align: center;
+    text-align: right;
     transition: all .3s ease-in-out;
 }
 
 .list__item:hover .hover__item {
-    width: 150px;
+    width: 250px;
     opacity: 1;
     visibility: visible;
 }
