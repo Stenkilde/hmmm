@@ -61,6 +61,15 @@ body {
     font-weight: 200;
 }
 
+.me {
+    width: 250px;
+    padding: 30px 0;
+}
+
+.portfolio {
+    text-align: center;
+}
+
 .portfolio h3 {
     padding: 38px 0;
     text-align: center;
