@@ -141,6 +141,10 @@ body {
     padding: 20px 0;
 }
 
+.skills .title {
+    padding: 20px 0 10px;
+}
+
 @media only screen and (min-width: 768px) {
     .header {
         padding: 0 50px;
