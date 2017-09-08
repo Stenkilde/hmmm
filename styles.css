@@ -136,12 +136,13 @@ body {
     font-size: 1.3em;
 }
 
-.skills {
+.skills, .hobbies {
     text-align: center;
     padding: 20px 0;
 }
 
-.skills .title {
+.skills .title,
+.hobbies .title {
     padding: 20px 0 10px;
 }
 
